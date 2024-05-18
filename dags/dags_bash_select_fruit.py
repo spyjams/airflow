@@ -18,5 +18,6 @@ with DAG(
         task_id="bash_avocado",
         bash_command="/opt/airflow/plugins/select_fruit.sh AVOCADO",
     )
-
+ 
     t1_orange>>t1_avocado
+    
